@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/otaviozin/go-receita-federal/utils"
+)
 
 func main() {
-	fmt.Println("Nada aqui. Por enquanto...")
+	utils.DownloadEmpresas()
 }
